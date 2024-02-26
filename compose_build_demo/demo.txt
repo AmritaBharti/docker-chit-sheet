@@ -1,0 +1,13 @@
+  writing an application of creating an custom images 
+  
+   compose_build_demo
+	        |
+	        |-->webapp_nginx
+	        |       |--> hello.txt
+		|       |--> Dockerfile
+		|
+		|-->webapp_httpd
+		|       |--> hello.txt
+		|       |--> Dockerfile
+		|
+		|-->docker-compose.yml

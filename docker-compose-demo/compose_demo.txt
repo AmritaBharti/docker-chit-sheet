@@ -1,0 +1,20 @@
+Application-1 --> from compose_demo1 folder compose file
+
+HTTPD
+Gateway   :172.20.0.1
+IpAddress :172.20.0.3
+
+NGINX
+Gateway  :172.20.0.1
+IpAddress:172.20.0.2
+
+Application-2 --> from compose_demo2 folder compose file
+
+HTTPD
+Gateway   :172.22.0.1
+IpAddress :172.22.0.2
+
+NGINX
+Gateway  :172.22.0.1
+IpAddress:172.22.0.3
+

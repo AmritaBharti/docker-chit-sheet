@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  nginxwebapp:
+    image: mynginx
+    build:
+      context: webapp_nginx
+      dockerfile: Dockerfile_httpd
+    ports:
+      - "8080:80"
+
+  httpxwebapp:
+    image: myhttpd
+    build:
+      context: webapp_httpd
+      dockerfile: Dockerfile_nginx
+    ports:
+      - "8090:80"
+

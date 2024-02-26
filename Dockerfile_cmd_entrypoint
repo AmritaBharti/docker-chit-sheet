@@ -1,0 +1,3 @@
+FROM ubuntu
+CMD [ "echo","This is my CMD output" ]
+ENTRYPOINT [ "echo","This is my Entry point output"  ]

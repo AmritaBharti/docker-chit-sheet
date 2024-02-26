@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  nginxwebapp:
+    image: nginx
+    ports:
+    - "8081:80"
+  httpwebapp:
+    image: httpd
+    ports:
+      - "8091:80"
